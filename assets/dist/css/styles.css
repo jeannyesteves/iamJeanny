@@ -1,0 +1,90 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background: white;
+}
+
+.navbar a {
+  color: #333;
+}
+
+.nav-link {
+  font-size: 20px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+#intro,#about,#skills,#projects,#contact {
+  /* background: rgb(241, 222, 241); */
+  background-color: #4C3228;
+}
+
+.fw-light {
+  color: white;
+}
+
+.lead.text-muted {
+  color: white !important;
+}
+
+#projects .row>* {
+  padding: 0;
+}
+
+#projects .col-pad {
+  padding: 0 10px;
+}
+
+#projects .card-body {
+  min-height: 110px;
+}
+
+#contact .card {
+  border-radius: 20px;
+  background-color: #FFFFB7;
+}
+
+#skills .card .card-text {
+  min-height: 170px;
+}
+
+#projects .card .card-text {
+  min-height: 50px;
+}
+
+#events .card .card-text {
+  min-height: 130px;
+}
+
+
+.form-btn {
+  background: palevioletred;
+  border-color: palevioletred;
+}
+
+#footer {
+  background: white;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .nav-link {
+    text-align: left;
+  }
+}
